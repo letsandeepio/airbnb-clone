@@ -20,10 +20,21 @@
   flex: 1;
   max-width: fit-content;
   padding: 10px;
-  height: 30px;
+  height: 50px;
+  border: 1px solid lightgray;
+  border-radius: 999px;
+}
+
+.header__center > input {
+  border: none;
+  width: 400px;
+  padding: 10px;
+  outline-width: 0;
 }
 
 .header__right {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  width: 15vw;
 }
