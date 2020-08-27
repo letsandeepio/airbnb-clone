@@ -2,6 +2,7 @@ import React from 'react';
 import './Home.css';
 import Banner from './Banner';
 import Card from './Card';
+import Footer from './Footer';
 
 function Home() {
   return (
@@ -44,6 +45,7 @@ function Home() {
           price="£70/night"
         />
       </div>
+      <Footer />
     </div>
   );
 }
