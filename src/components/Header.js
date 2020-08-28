@@ -5,12 +5,15 @@ import './Header.css';
 import LanguageIcon from '@material-ui/icons/Language';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import { Avatar } from '@material-ui/core';
+import { Link } from 'react-router-dom';
 
 function Header() {
   return (
     <div className="header">
       <div className="header__logo">
-        <Logo />
+        <Link to="/">
+          <Logo />
+        </Link>
       </div>
       <div className="header__center">
         <input type="text" />
